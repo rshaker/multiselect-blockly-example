@@ -1,0 +1,58 @@
+{
+    "name": "@rshaker/multiselect-blockly-example",
+    "version": "0.1.8",
+    "description": "Demonstrates usage of @rshaker/multiselect-blockly plugin",
+    "license": "MIT",
+    "author": {
+        "name": "Ron Shaker",
+        "email": "rshaker@gmail.com",
+        "url": "https://github.com/rshaker"
+    },
+    "bugs": {
+        "url": "https://github.com/rshaker/multiselect-blockly-example/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rshaker/multiselect-blockly-example.git"
+    },
+    "homepage": "https://github.com/rshaker/multiselect-blockly-example",
+    "keywords": [
+        "blockly",
+        "multiselect",
+        "example",
+        "nodejs",
+        "typescript",
+        "webpack"
+    ],
+    "scripts": {
+        "build": "npm run clean && webpack --mode production --config webpack.config.js",
+        "clean": "rimraf dist",
+        "dev": "npm run clean && webpack --mode development --config webpack.config.js",
+        "serve": "webpack serve --config webpackDevServer.config.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "npm run clean && webpack --mode development --watch --config webpack.config.js"
+    },
+    "main": "./dist/example.js",
+    "types": "./dist/example.d.ts",
+    "files": [
+        "dist",
+        "src",
+        "webpackDevServer.config.js",
+        "index.html"
+    ],
+    "devDependencies": {
+        "copy-webpack-plugin": "^11.0.0",
+        "rimraf": "^5.0.5",
+        "ts-loader": "^9.0.0",
+        "ts-node": "^10.0.0",
+        "typescript": "^5.0.0",
+        "webpack": "^5.0.0",
+        "webpack-cli": "^4.0.0",
+        "webpack-dev-server": "^4.15.1"
+    },
+    "dependencies": {
+        "@blockly/dev-tools": "^7.1.9",
+        "@rshaker/multiselect-blockly": "^0.3.2",
+        "blockly": "^10.4.3"
+    }
+}
