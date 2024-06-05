@@ -1,6 +1,6 @@
 {
     "name": "@rshaker/multiselect-blockly-example",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Demonstrates usage of @rshaker/multiselect-blockly plugin",
     "license": "MIT",
     "author": {
@@ -52,7 +52,7 @@
     },
     "dependencies": {
         "@blockly/dev-tools": "^7.1.9",
-        "@rshaker/multiselect-blockly": "^0.3.2",
+        "@rshaker/multiselect-blockly": "^0.3.4",
         "blockly": "^10.4.3"
     }
 }
