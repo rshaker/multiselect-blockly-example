@@ -1,6 +1,6 @@
 {
     "name": "@rshaker/multiselect-blockly-example",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "description": "Demonstrates usage of @rshaker/multiselect-blockly plugin",
     "license": "MIT",
     "author": {
